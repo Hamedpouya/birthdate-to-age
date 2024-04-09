@@ -11,7 +11,7 @@ class birthdate_to_age:
     def __init__(self, name, birthdate):
             self.name = name
             self.birthdate = birthdate
-            print(f"{self.name} to {self.birthdate} sale hasti")
+            print(f"{self.name}, you're {self.birthdate} years old")
         
     @classmethod
     def show(cls, name, birthdate):
